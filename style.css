@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #444444;
+    margin: 40px auto 40px auto;
+    width: 660px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section img, section video {
+    object-fit: contain;
+    height: 220px;
+    padding: 3px;
+    width: 100%
+}
